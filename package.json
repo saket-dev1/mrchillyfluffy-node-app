@@ -1,0 +1,24 @@
+{
+  "name": "donation-app",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "scaffold": "shopify app scaffold",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@getchange/change-drop-in": "^1.5.1",
+    "@shopify/app": "^3.9.2",
+    "@shopify/checkout-ui-extensions-react": "^0.18.1",
+    "@shopify/cli": "^3.9.2",
+    "@shopify/post-purchase-ui-extensions-react": "^0.13.3",
+    "cors": "^2.8.5",
+    "react": "^17.0.2"
+  },
+  "author": "skj"
+}

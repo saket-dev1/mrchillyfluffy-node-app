@@ -1,0 +1,27 @@
+type = "post_purchase_ui"
+name = "donation-ext"
+
+extension_points = [
+  'Checkout::Dynamic::Render'
+]
+
+# [[metafields]]
+# namespace = "my-namespace"
+# key = "my-key"
+
+# [[metafields]]
+# namespace = "my-namespace"
+# key = "my-key-2"
+
+# [capabilities]
+# network_access = true
+
+[settings]
+#   [[settings.fields]]
+#   key = "field_key"
+#   type = "boolean"
+#   name = "field-name"
+#   [[settings.fields]]
+#   key = "field_key_2"
+#   type = "number_integer"
+#   name = "field-name-2"
