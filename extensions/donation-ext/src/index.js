@@ -90,7 +90,7 @@ function createUrl(shop, endpoint) {
    * or the url of your production app (if pushing/publishing the extension)
    */
 
-  const embeddedAppHost = "https://34ce-123-201-19-47.in.ngrok.io";
+  const embeddedAppHost = "https://mrchillyfluffy-node-app.herokuapp.com";
   if(shop == ''){
     return `${embeddedAppHost}/${endpoint}`;
   }else{
